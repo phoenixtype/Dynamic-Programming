@@ -30,6 +30,7 @@ public class NumberOfWays {
         }
 
         //if we have already calculated, so directly returning
+        //Memoization
         if (dp[startPos+1000][k] != -1) {
             return dp[startPos+1000][k];
         }
